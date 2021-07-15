@@ -62,6 +62,8 @@ div.centered-txt {
   text-align: center;
   margin-top: 120px;
   margin-bottom: 40px;
+  max-width: 900px;
+  margin: 120px auto 40px;
 }
 
 div.main-img-wrapper {
