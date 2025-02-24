@@ -4,16 +4,33 @@
   <title>MXT Holdings</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="MXT_Fav.png" /> 
+  <style>
+    /* Estilos para centrar el video */
+    .video-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      margin: 20px auto;
+      width: 100%;
+    }
+    video {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 
 <body>
 
-<!-- Sección de Video -->
-<h2>MXT HOLDINGS</h2>
-<video width="800" controls>
-  <source src="Mxt_Video.mp4" type="video/mp4">
-  Tu navegador no soporta la reproducción de video.
-</video>
+<!-- Sección de Video Centrado y Auto-Reproducción -->
+<h2 style="text-align: center;">MXT HOLDINGS</h2>
+<div class="video-container">
+  <video autoplay muted loop controls>
+    <source src="Mxt_Video.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video>
+</div>
 
 <!-- Main content -->
 <div style="position: relative; width: 100%; height: 0; padding-top: 129.4118%;
@@ -30,4 +47,3 @@
 
 </body>
 </html>
-
